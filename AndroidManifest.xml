@@ -408,7 +408,7 @@
 
         <activity android:name="CellBroadcastSms"
             android:label="@string/cell_broadcast_sms"
-            android:theme="@android:style/Theme.Holo.DialogWhenLarge">
+            android:theme="@android:style/Theme.Material.DayNight.DialogWhenLarge">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
@@ -460,7 +460,7 @@
 
         <activity android:name="DataRoamingReenable"
                 android:label="@string/dialog_alert_title"
-                android:theme="@android:style/Theme.Holo.Dialog">
+                android:theme="@android:style/Theme.Material.DayNight.Dialog">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
@@ -469,7 +469,7 @@
         <!-- data roaming setting -->
         <activity android:name="RoamingSetting"
                 android:label="@string/roaming"
-                android:theme="@android:style/Theme.Holo.DialogWhenLarge">
+                android:theme="@android:style/Theme.Material.DayNight.DialogWhenLarge">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
@@ -524,7 +524,7 @@
             android:excludeFromRecents="true"
             android:label="@string/ecm_exit_dialog"
             android:launchMode="singleTop"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            android:theme="@android:style/Theme.Material.DayNight.NoActionBar.TranslucentDecor">
             <intent-filter>
                 <action android:name="com.android.phone.action.ACTION_SHOW_ECM_EXIT_DIALOG" />
                 <action android:name="android.intent.action.ACTION_SHOW_NOTICE_ECM_BLOCK_OTHERS" />

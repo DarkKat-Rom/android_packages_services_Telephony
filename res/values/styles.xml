@@ -156,11 +156,11 @@
     <!-- Theme for the activity com.android.phone.Settings, which is the
          "Mobile network settings" screen (used on non-voice-capable
          tablets as well as regular phone devices.) -->
-    <style name="Theme.Settings" parent="@android:style/Theme.Holo.DialogWhenLarge">
+    <style name="Theme.Settings" parent="@android:style/Theme.Material.DayNight.DialogWhenLarge">
         <item name="android:windowCloseOnTouchOutside">true</item>
     </style>
 
-    <style name="SettingsLight" parent="android:Theme.Material.Light">
+    <style name="SettingsLight" parent="android:style/Theme.Material.DayNight">
         <item name="android:windowBackground">@color/phone_settings_background_color</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:actionBarStyle">@style/DialtactsActionBarStyle</item>
@@ -181,18 +181,18 @@
     </style>
 
     <style name="DialerAlertDialogTheme"
-        parent="@android:style/Theme.Material.Light.Dialog">
+        parent="@android:style/Theme.Material.DayNight.Dialog">
         <item name="android:colorAccent">@color/dialer_theme_color</item>
         <item name="android:textColor">?android:attr/textColorPrimaryInverseDisableOnly</item>
     </style>
 
-    <style name="NetworkOperatorsSettingsTheme" parent="@android:style/Theme.Material.Light">
+    <style name="NetworkOperatorsSettingsTheme" parent="@android:style/Theme.Material.DayNight">
         <item name="android:actionBarTheme">@android:style/ThemeOverlay.Material.Dark.ActionBar</item>
         <item name="android:colorPrimary">@color/network_operators_color_primary</item>
         <item name="android:colorPrimaryDark">@color/network_operators_color_primary_dark</item>
     </style>
 
-    <style name="Empty" parent="@android:style/Theme.Material.Light">
+    <style name="Empty" parent="@android:style/Theme.Material.DayNight">
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowContentOverlay">@null</item>
@@ -201,7 +201,7 @@
         <item name="android:backgroundDimEnabled">true</item>
     </style>
 
-    <style name="InCallAnimationStyle" parent="@*android:style/Animation.Holo.Activity">
+    <style name="InCallAnimationStyle" parent="@*android:style/Animation.Material.Activity">
         <!-- Suppress task-to-task animation happening during the transition from
              OutgoingCallBroadcaster (and SipOptionHandler) to InCallScreen.
              The transition unexpectedly happens during the transition (inside the phone task),
@@ -221,7 +221,7 @@
         <item name="*android:taskToFrontExitAnimation">@*android:anim/activity_open_exit</item>
     </style>
 
-    <style name="OutgoingAnimationStyle" parent="@*android:style/Animation.Holo.Activity">
+    <style name="OutgoingAnimationStyle" parent="@*android:style/Animation.Material.Activity">
         <!-- Suppress task-to-task transition animation happening from
              DialtactsActivity to OutgoingCallBroadcaster. -->
         <item name="*android:taskOpenEnterAnimation">@*android:anim/activity_open_enter</item>
@@ -252,11 +252,11 @@
 
     <!-- Action bar overflow menu icon. -->
     <style name="DialtactsActionBarOverflow"
-           parent="@android:style/Widget.Holo.ActionButton.Overflow">
+           parent="@android:style/Widget.Material.ActionButton.Overflow">
         <item name="android:src">@drawable/overflow_menu</item>
     </style>
 
-    <style name="EmergencyDialerTheme" parent="@android:style/Theme.Material.NoActionBar">
+    <style name="EmergencyDialerTheme" parent="@android:style/Theme.Material.DayNight.NoActionBar">
         <item name="android:colorPrimary">@color/emergency_dialer_background</item>
         <item name="android:colorPrimaryDark">@color/emergency_dialer_background</item>
         <item name="android:windowBackground">@color/emergency_dialer_background</item>
@@ -265,14 +265,14 @@
         <item name="android:homeAsUpIndicator">@drawable/ic_back_arrow</item>
     </style>
 
-    <style name="SimImportTheme" parent="@android:style/Theme.Material.Light">
+    <style name="SimImportTheme" parent="@android:style/Theme.Material.DayNight">
         <item name="android:actionBarStyle">@style/TelephonyActionBarStyle</item>
         <item name="android:colorPrimaryDark">@color/dialer_theme_color_dark</item>
         <item name="android:homeAsUpIndicator">@drawable/ic_back_arrow</item>
         <item name="android:actionOverflowButtonStyle">@style/DialtactsActionBarOverflow</item>
     </style>
 
-    <style name="OutgoingCallBroadcasterTheme" parent="@android:style/Theme.Holo.NoActionBar">
+    <style name="OutgoingCallBroadcasterTheme" parent="@android:style/Theme.Material.DayNight.NoActionBar">
         <item name="android:windowBackground">@android:color/black</item>
 
         <item name="*android:windowAnimationStyle">@style/OutgoingAnimationStyle</item>
