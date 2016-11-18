@@ -245,7 +245,7 @@
         <item name="android:src">@drawable/overflow_menu</item>
     </style>
 
-    <style name="EmergencyDialerTheme" parent="@android:style/Theme.Material.Settings.NoActionBar">
+    <style name="EmergencyDialerTheme" parent="@*android:style/Theme.DeviceDefault.Settings.Dark.NoActionBar">
         <item name="android:colorPrimaryDark">?android:attr/colorPrimary</item>
         <item name="android:windowBackground">?android:attr/colorPrimary</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
