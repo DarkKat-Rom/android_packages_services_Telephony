@@ -16,7 +16,7 @@
 
 <resources>
 
-    <!-- DarkKat theme -->
+    <!-- Night (DarkKat) theme colors -->
     <color name="darkkat_blue_grey">#ff1b1f23</color>
 
     <color name="manage_conference_secondary_text_color">#b3ffffff</color>

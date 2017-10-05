@@ -16,7 +16,7 @@
 
 <resources>
 
-    <!-- Material theme -->
+    <!-- Night (Material) theme colors -->
     <color name="material_grey_850">#ff303030</color>
 
     <color name="manage_conference_secondary_text_color">#b3ffffff</color>
